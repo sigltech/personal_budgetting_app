@@ -1,0 +1,74 @@
+.register-page-section-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: calc(100vh - 85px);
+}
+
+.register-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
+    padding: 4rem 10rem;
+}
+
+.register-page-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-page-container form input {
+    width: 300px;
+    padding: 0.5rem 1rem;
+    /* border: 2px solid #14684b; */
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+.register-page-container form input::placeholder {
+    text-align: center;
+}
+
+.input-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-page-container form input:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.register-page-container form label {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.register-page-container #register-submit-btn {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 2px solid #14684b;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    background: transparent;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.register-page-container #register-submit-btn:hover {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: all 0.3s ease;
+}
